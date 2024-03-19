@@ -1,0 +1,15 @@
+.head-text,.head-content {
+    position: relative;
+    padding: 50px;
+ }
+ .text-on-image {
+    width: 50%;
+   position: absolute;
+   right: 50%;
+   left: 40%;
+   bottom: 45%;
+ }
+
+ .my-work{
+    padding: 50px;
+ }

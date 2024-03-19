@@ -1,0 +1,29 @@
+
+.view-more{
+    color: orange;
+    margin-top: 10px;
+    margin-left: 0;
+    padding-left: 0;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    transition: all ease 0.9s;
+}
+
+.content-parent {
+    height: 0px;
+    overflow: hidden;
+    transition: height ease 0.9s;
+}
+    
+.content-show {
+    height: fit-content;
+}
+
+ul{
+    padding-left: 0;
+
+    li{
+        padding-top: 10px;
+    }
+}
