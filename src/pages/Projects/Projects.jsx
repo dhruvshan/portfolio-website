@@ -5,7 +5,7 @@ export default function Projects(){
     return(
         <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={4}>
-                <Grid container item xs={4} className="project-grid" spacing={3} direction="column">
+                <Grid container item xs={12} md={4} className="project-grid" spacing={3} direction="column">
                         <Grid item>
                             <Typography variant="h6">
                                 Personal Carbon Footprint Application
@@ -32,7 +32,7 @@ export default function Projects(){
                         
                     
                 </Grid>
-                <Grid container item xs={4} className="project-grid" spacing={3} direction="column">
+                <Grid container item xs={12} md={4}className="project-grid" spacing={3} direction="column">
                     <Grid item>
                         <Typography variant="h6">
                             Project VeriFi
@@ -56,7 +56,7 @@ export default function Projects(){
                     </Grid>
                     
                 </Grid>
-                <Grid container item xs={4} className="project-grid" spacing={3} direction="column">
+                <Grid container item xs={12} md={4} className="project-grid" spacing={3} direction="column">
                     <Grid item>
                         <Typography variant="h6">
                             Food Footprint API
