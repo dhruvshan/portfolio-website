@@ -1,5 +1,5 @@
 import React  from 'react';
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Grid, Link, Typography } from "@mui/material";
 
 export default function Projects(){
     return(
@@ -27,7 +27,10 @@ export default function Projects(){
                             Skills:
                             </Typography>
                             Flutter, Firebase, Figma, Debugging
-
+                        </Grid>
+                        <Grid item>
+                            <Typography color={"orange"}>Link:</Typography>
+                            <Link rel="noopener noreferrer"  href="https://github.com/dhruvshan/carbonfootprintapp"  target="_blank">FYP GitHub</Link>
                         </Grid>
                         
                     
@@ -54,14 +57,18 @@ export default function Projects(){
                         <Typography color={"orange"}>Skills:</Typography>
                         Figma, HTML, CSS, JavaScript, Polygon Network API
                     </Grid>
+                    <Grid item>
+                        <Typography color={"orange"}>Link:</Typography>
+                        <Link rel="noopener noreferrer"  href="https://github.com/zhenyong25/crypto.com-hackathon-2022"  target="_blank">VeriFi GitHub</Link>
+                    </Grid>
                     
                 </Grid>
                 <Grid container item xs={12} md={4} className="project-grid" spacing={3} direction="column">
                     <Grid item>
                         <Typography variant="h6">
-                            Food Footprint API
+                            CarbonFoodprint
                         </Typography>
-                        <Typography>Personal Project - In Progress</Typography>
+                        <Typography>Personal Project - Deployed</Typography>
                     </Grid>
                     <Grid item>
                         <Typography>
@@ -72,12 +79,16 @@ export default function Projects(){
                         <br />
                         <Typography>
                             Unfortunately, there was no public API, or database which contained the types of food (especially asian food) and their 
-                            corresponding footprint. So I decided to build one myself. Currently under development
+                            corresponding footprint. So I decided to build one myself. Project has been deployed on vercel and the food database is being updated regularly!
                         </Typography>
                     </Grid>
                     <Grid item>
                         <Typography color={"orange"}>Skills:</Typography>
                         React, Node.js, Express, MongoDB, Docker, Cypress
+                    </Grid>
+                    <Grid item>
+                        <Typography color={"orange"}>Link:</Typography>
+                        <Link rel="noopener noreferrer"  href="https://carbonfoodprint.vercel.app/"  target="_blank">CarbonFoodprint App</Link>
                     </Grid>
                     
                 </Grid>
