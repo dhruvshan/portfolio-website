@@ -7,7 +7,7 @@ export default function Projects(){
             <Grid container spacing={4}>
                 <Grid container item xs={12} md={4} className="project-grid" spacing={3} direction="column">
                         <Grid item>
-                            <Typography variant="h6">
+                            <Typography variant="h6" color={"orange"}>
                                 Personal Carbon Footprint Application
                             </Typography>   
                             <Typography> Final Year Project - Grade: A</Typography>
@@ -37,7 +37,7 @@ export default function Projects(){
                 </Grid>
                 <Grid container item xs={12} md={4}className="project-grid" spacing={3} direction="column">
                     <Grid item>
-                        <Typography variant="h6">
+                        <Typography variant="h6" color={"orange"}>
                             Project VeriFi
                         </Typography>
                         <Typography>Crypto.com 2022 Hackathon - 4th Place</Typography>
@@ -65,7 +65,7 @@ export default function Projects(){
                 </Grid>
                 <Grid container item xs={12} md={4} className="project-grid" spacing={3} direction="column">
                     <Grid item>
-                        <Typography variant="h6">
+                        <Typography variant="h6" color={"orange"}>
                             CarbonFoodprint
                         </Typography>
                         <Typography>Personal Project - Deployed</Typography>
@@ -89,8 +89,34 @@ export default function Projects(){
                     <Grid item>
                         <Typography color={"orange"}>Link:</Typography>
                         <Link rel="noopener noreferrer"  href="https://carbonfoodprint.vercel.app/"  target="_blank">CarbonFoodprint App</Link>
+                    </Grid>   
+                </Grid>
+                <Grid container item xs={12} md={4} className="project-grid" spacing={3} direction="column">
+                    <Grid item>
+                        <Typography variant="h6" color={"orange"}>
+                            Image-RCC
+                        </Typography>
+                        <Typography>Personal Project</Typography>
                     </Grid>
-                    
+                    <Grid item>
+                        <Typography>
+                           Image-RCC(Resize, Convert and Compress) is a python based GUI program that allows users to locally resize their images, convert them to 
+                           different image formats and compress their sizes to save on storage. 
+                        </Typography>
+                        <br />
+                        <Typography>
+                            This program was inspired by the process in creating image datasets for AI/ML usage as it is frequently required to resize and standardize image formats.
+                            With this program, users can resize,convert and compress multiple images and even image subdirectories rapidly!
+                        </Typography>
+                    </Grid>
+                    <Grid item>
+                        <Typography color={"orange"}>Skills:</Typography>
+                        Python, Pillow, Tkinter
+                    </Grid>
+                    <Grid item>
+                        <Typography color={"orange"}>Link:</Typography>
+                        <Link rel="noopener noreferrer"  href="https://github.com/dhruvshan/Image-RCC"  target="_blank">Image-RCC GitHub</Link>
+                    </Grid>   
                 </Grid>
             </Grid>
         </Box>

@@ -37,6 +37,14 @@ function Footer() {
             color="text.secondary"
             component="p"
           >
+            <Link color="inherit" style={{textDecoration:"none"}} href="https://github.com/dhruvshan">GitHub</Link>
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            color="text.secondary"
+            component="p"
+          >
             <Link color="inherit" style={{textDecoration:"none"}} href="mailto:dhruvshan@gmail.com" target="_blank">dhruvshan@gmail.com</Link>
           </Typography>
         </Box>
