@@ -18,31 +18,6 @@ const router = createBrowserRouter([
         element: <Home/>
       },
     ]
-    //   {
-    //     path:"/my-assets",
-    //     element: <AssetView/>
-    //   },
-    //   {
-    //     path: "/login",
-    //     element: <Login />,
-    //     errorElement: <ErrorPage />
-    //   },
-    //   {
-    //     path: "/register",
-    //     element: <Register />,
-    //     errorElement: <ErrorPage />
-    //   },
-    //   {
-    //     path: "/add-assets",
-    //     element: <AddMyAssets />,
-    //     errorElement: <ErrorPage />
-    //   },
-    //   {
-    //     path: "/transactions",
-    //     element: <TransactionView />,
-    //     errorElement: <ErrorPage />
-    //   }
-    // ]
   },
   
 ]);
